@@ -1,6 +1,8 @@
 use bevy::prelude::*;
 
 fn main() {
+    let x = "test".to_string();
+    println!("hello {}!", x);
     App::new()
         .add_plugins(DefaultPlugins)
         .add_startup_system(setup)
